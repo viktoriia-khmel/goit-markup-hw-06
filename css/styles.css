@@ -325,8 +325,6 @@ img {
 .address-container {
   display: none;
   flex-direction: column;
-  padding-top: 16px;
-  padding-bottom: 16px;
   gap: 12px;
   font-style: normal;
 }
@@ -388,7 +386,6 @@ img {
   .address-container {
     display: flex;
     flex-direction: row;
-    padding-top: 24px;
     gap: 40px;
   }
   .address-text {
@@ -415,7 +412,7 @@ img {
   background-color: #2e2f42;
   padding-top: 72px;
   padding-bottom: 72px;
-
+  max-width: 1440px;
   height: 100%;
   margin: 0 auto;
 }
